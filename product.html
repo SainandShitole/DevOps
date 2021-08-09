@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>
+    <title>Product Document</title>
+    <style>
+        #pre{
+            background-color: skyblue;
+        }
+    #a{
+        color: red;
+        font-style: italic;
+        background-color: aqua;
+        
+    }
+    #b{
+        padding-left: 190px;
+        padding-right: 250px;
+    }
+    #table{
+        background-color: darkgrey;
+    }
+    #title{
+        
+        padding-left: 20px;
+       
+    }
+    #name{
+        padding-left: 40px;
+    }
+    .pri{
+        overflow: scroll;
+    }
+    #p{
+       
+        outline: 5px solid skyblue;
+       
+    }
+    .content {
+      
+      background: white;
+      padding: 200px;
+    }
+    
+    </style>
+    </head>
+    <body class="content">
+       
+        <h3><span id="a">Express Registration</span></h3>
+    
+        <h4>Please Note that all fields That Have an asterisk(*) are required to process your <br> registration</h4>
+             
+        <table  id="table">
+            <tr>
+                <th id="c">
+                   Personal Details
+                </th>
+                <th id="b">
+                    Address 
+                </th>
+            </tr>
+        </table>
+        <br>
+        <table >
+            <form>
+            <tr>
+                <td>
+                    Title:
+                </td>
+                <td id="title">
+                    <input type="text" size="5px" id="pre"><br>(Mr/Mrs/Miss) 
+                </td>
+                <td id="name">Address:</td>
+                <td id="title"><input type="text" id="pre">*</td>
+            </tr>
+            <tr>
+                <td>
+                    Firstname:
+                </td>
+                <td id="title">
+                    <input type="text" id="pre"><br>*
+                </td>
+                <td id="name"></td>
+                <td id="title"><input type="text" id="pre"></td> 
+            </tr>
+            <tr>
+                <td>
+                    Lastname:
+                </td>
+                <td id="title">
+                    <input type="text" id="pre" ><br>*
+                </td>
+                <td id="name">Town:</td>
+                <td id="title"><input type="text" id="pre">*</td> 
+            </tr>
+            <tr>
+                <td>
+                    Email<br>Address:
+                </td>
+                <td id="title">
+                    <input type="text" id="pre"><br>*
+                </td>
+                <td id="name">Country/State:</td>
+                <td id="title"><input type="text" id="pre">*</td> 
+            </tr>
+            <tr>
+                <td>
+                    Telephone:
+                </td>
+                <td id="title">
+                    <input type="text" id="pre"><br>*
+                </td>
+                <td id="name">Country:</td>
+                <td id="title"><select style="width: 200px;" id="pre">
+                    <option selected disabled >select country</option>
+                    <option>India</option>
+                    <option>America</option>
+                    <option>France</option>
+                </select>*</td> 
+            </tr>
+            <tr>
+                <td>
+                    Cell Phone:
+                </td>
+                <td id="title">
+                    <input type="text" id="pre"><br>*
+                </td>
+                <td id="name">Postcode:</td>
+                <td id="title"><input type="text" id="pre">*</td> 
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    Comments:
+                </td>
+                <td colspan="3" rowspan="2" id="title">
+                    <textarea cols="70" rows="5" id="pre" class="pri"></textarea>
+                </td>
+            </tr>
+            <tr>
+    
+            </tr>
+            <tr id="p">
+                <td rowspan="2">
+                    Feedback:
+                </td >
+                <td id="title" rowspan="2">
+                    <input type="text" id="pre">
+                </td>
+                <td rowspan="2" id="name">
+                    Hear us from?
+                </td>
+                <td id="title">
+                    <input type="checkbox" value="Friend">Friend
+                    <input type="checkbox" value="Site Owner">Site Owner<br>
+                    <input type="checkbox" value="Search Engine">Search Engine
+    
+                </td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+                <td id="table" colspan="5">
+                    Security Details
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Choose<br>
+                    Password:
+                </td>
+                <td id="title">
+                    <input type="text" id="pre"><br>*
+                </td>
+                <td id="name">Confirm<br>Password:</td>
+                <td id="title"><input type="text" id="pre">*</td> 
+            </tr>
+            
+    
+           
+        </form>
+        </table>
+    </body>
+    </html>
